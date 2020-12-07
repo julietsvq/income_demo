@@ -6,7 +6,7 @@ import tensorflow as tf
 
 
 def input_fn(features, labels, shuffle, num_epochs, batch_size):
-    """Generates an input function to be used for model training.
+    """******Generates an input function to be used for model training.
 
     Args:
       features: numpy array of features used for training or inference
